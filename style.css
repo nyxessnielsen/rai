@@ -1,0 +1,196 @@
+::-webkit-scrollbar { width: 1px; height:3px; background: transparent;}
+::-webkit-scrollbar-thumb { background-color: transparent; -webkit-border-radius: 1ex; }
+@font-face{ font-family:"roboto"; src: url('https://dl.dropboxusercontent.com/s/ngvu4bor11wm8ly/thin.ttf’)'); }
+
+@font-face{ font-family:"robold"; src: url('https://dl.dropboxusercontent.com/s/qynix3bz0j8ppva/Roboto-BoldCondensed.ttf’)'); }
+
+@font-face{ font-family:"thiccboi"; src: url('https://dl.dropboxusercontent.com/s/xi8laalo2ak0ajz/THICCCBOI-ThicccAF.ttf’)'); }
+
+@font-face{ font-family:"katahdin"; src: url('https://dl.dropboxusercontent.com/s/m96ictkdwsenmlv/KatahdinRound.otf’)'); }
+
+@font-face{ font-family:"coco"; src: url('https://dl.dropboxusercontent.com/s/jmxqy3d15k1eqcn/coco.ttf’)'); }
+
+a:link, a:active, a:visited { color: #beb3c3; text-decoration:none; }
+ 
+a:hover { color:#fdfdfd; -webkit-transition: all 0.2s linear; -moz-transition: all 0.2s linear; transition: all 0.2s linear; }
+
+small, sub, sup { font-size:9px; }
+
+big { font-size:auto; }
+
+b, strong { color:#9c86b4 }
+
+i, em { color:#000000; }
+
+h1 { background-color:#ffffff; border-radius:8px; font-size:18px; text-align:center; letter-spacing:2px; font-family:'roboto'; color:#9c86b4; text-align:center; font-size:15px; line-height:24px;  padding:5px; }
+
+h2 { text-transform:uppercase; text-align:right; letter-spacing:4px; font-size:9px; color:#000000; }
+
+p { margin-top:6px; margin-bottom:6px; }
+
+blockquote { padding:0px; padding-left:10px; margin:8px; border-left:1px solid #dcdcdc; }
+ 
+img { border:none; max-width:100%; height:auto; }
+
+body {color:#333333; background-color:#000;  font-family:arial; font-family:ABeeZee, arial, sans-serif; font-size:9px; letter-spacing:1px; line-height:17px; text-align:justify; background-image:url('https://assets.tumblr.com/images/x.gif?v=1'); }
+
+#holder { position:absolute; width:935px; height:460px; margin: auto; left:0; top:0; bottom:0; right:0; background::#333333;    }
+
+
+
+#sidebar { position:absolute; width:200px; height:460px; left:0px; top:0px;  background::#333333; }
+
+
+#topbar { position:absolute; left:0px; top:0px; height:55px; width:200px;} 
+
+.sfm input { position:absolute; left:15px; top:18px; width:155px; background-color:#f5f5f5; font-size: 8px; text-transform:lowercase;  letter-spacing:2px; font-style:italic; padding: 4px 8px; border:1px solid #dcdcdc; border-radius:3px; }
+
+
+
+#icon { position:absolute; width:90px; height:90px; left:53px; top:85px; background-color:#333333; border:1px solid #dcdcdc; border-radius:20px; overflow:hidden; }
+
+#title { position:absolute; left:10px; top:200px; width:180px; height:10px; font-family:katahdin; font-size:18px; text-align:center; text-transform:uppercase;  }
+
+#subtitle { position:absolute; left:15px; top:210px; width:160px; height:8px; padding:5px; padding-top:10px; background-color:#cbc2cd; border-radius:5px; font-family:'robold'; font-size:8px; text-transform:uppercase; text-align:center;  line-height:9px; }
+
+#desc { position:absolute; left:25px; bottom:80px; width:150px; height:125px; font-family:robold; font-size:7px; text-transform:uppercase; line-height:16px; overflow:auto; }
+
+
+
+#bottombar { position:absolute; left:0px; bottom:0px; height:55px; width:200px; border-top:1px solid #dcdcdc;}   
+
+#line { position:absolute; left:15px; top: 27px; width:200px; height:1px; background-color:#dcdcdc; }
+
+#linkage { position: absolute; right:0px; bottom:0px; width:125px; height:38px; padding-left:15px; background-color:#f5f5f5; text-align:right ; font-size:25px; word-spacing:8px; line-height:5px;  }
+ 
+#linkage li {  width:12px; height:12px; padding:5px; list-style:none;  text-align:center; background-color:; border-radius:7px; margin-right:6px; float:left;  }
+ 
+#linkage a { font-weight:bold; text-transform:uppercase; font-family: 'robold', sans-serif;  font-size:12px; background-color:; font-weight:bold; letter-spacing:3px; color:#333333;  -webkit-transition: all 0.5s linear; -moz-transition: all 0.5s linear; transition: all 0.5s linear;  }
+ 
+#linkage i { color:#333333; }
+
+
+
+
+
+
+
+#socmed { position:absolute; width:375px; height:460px; left:201px; top:0px;  background:#000; border-radius:10px;  box-shadow:5px 5px 20px rgba(40,40,40.05); border:1px solid #5a5a5a;}
+
+
+
+#socposts { position:absolute; width:330px; height:110px; left:30px; top:35px;  background:#000; border:0.5px solid #5A5A5A; border-radius:20px; }
+
+#activity { position:absolute; left:20px; top:-8px; height:10px; padding:5px 10px; font-family:robold; font-size:10px; line-height:9px; text-transform:uppercase; background-color:#5a5a5a; border-radius:5px;}
+
+#instapost { position:relative; margin:25px -15px; width:120px; height:195px; background-color:#000; padding-top:10px; margin-bottom:20px; border-radius:10px; padding:20px; font-weight:bold; border:1px solid #5a5a5a;  }
+ 
+#instaicon { position: absolute; width:25px; height:25px; left:10px; top:10px;  border-radius:100px; overflow:hidden; background-color:#333333; }
+ 
+#instaicon img { width:25px; }
+ 
+#instaname { position:absolute;  left:20px; top:13px; font-size:12px; font-weight:bold; padding:0px 23px; line-height:10px; color:#5a5a5a; letter-spacing:1px; }
+ 
+#instaplace { position:absolute;  left:21px; top:25px; font-family:'robold'; font-size:7px; text-transform:uppercase; font-weight:bold;  overflow:hidden; padding:0px 23px; line-height:10px; letter-spacing:.5px; }
+ 
+#instaplace i { font-size:5px; }
+ 
+#instaimg { position: absolute; width:160px; height:160px; left:0px; top:45px; background-color:#5a5a5a;  }
+
+ 
+#instacomm { position:absolute; left:0px; bottom:10px; font-family:'robold'; font-size:7px; font-weight:bold; text-transform:uppercase; overflow:hidden; line-height:12px;  letter-spacing:1px; padding:0px 10px;}
+
+#postimg { position:absolute; width:75px; height:75px; right:95px; top:20px;  background:#333333; border:1px solid #5A5A5A; border-radius:20px; overflow:hidden;-webkit-transition: opacity 0.8s linear;
+    opacity: .2; }
+
+#postimg:hover {
+    -webkit-transition: opacity 0.9s linear;
+    opacity: 2;  
+} 
+
+#postimg2 { position:absolute; width:75px; height:75px; right:10px; top:20px;  background:#333333; border:1px solid #5A5A5A; border-radius:20px; overflow:hidden;-webkit-transition: opacity 0.8s linear;
+    opacity: .2; }
+
+#postimg2:hover {
+    -webkit-transition: opacity 0.9s linear;
+    opacity: 2;  
+} 
+
+#postimg img { width:75px; height:75px; }
+
+#postimg2 img { width:75px; height:75px; }
+
+
+#twitter { position:absolute; width:165px; height:235px; right:15px; top:165px;  background:#000; border:1px solid #5a5a5a; border-radius:20px; overflow:hidden;}
+
+#twitter:hover { z-index:9999999999999; }
+
+#twtheader { position:absolute; width:165px; height:55px; right:0px; top:0px;  background:#2a2a2a;  }
+
+#twticon { position:absolute; width:50px; height:50px; left:15px; top:22px;  border:6px solid #000; border-radius:100px; overflow:hidden; }
+
+#twticon img { width:50px; height:50px; }
+
+#twtfooter { position:absolute; width:165px; height:40px; right:0px; bottom:0px;  background:#292929;  }
+
+#twitname { position:absolute; left:15px; top:83px; width: 310px; height:40px; font-size:14px; font-weight:bold;  overflow:hidden; line-height:20px;  letter-spacing:1px; }
+ 
+#twithandle { position:absolute; left:13px; top:100px; width:100px; height:20px;  font-size:9px;  text-align:left; letter-spacing:2px; line-height:20px; }
+ 
+#twitloc { position:absolute; left:15px; top:115px; width:250px; height:20px; font-size:8px;  font-style:italic; text-align:left; letter-spacing:1px; line-height:20px; }
+ 
+#twitfollow { position:absolute; left:93px; top:60px; width:40px; height:9px; padding:3px;  border-radius:7px; font-family:'robold';  font-size:6px; text-transform:uppercase; text-align:center; letter-spacing:1px; line-height:9px; border:1px solid #333333; box-shadow: 0 0 0.3em #aaa; }
+ 
+.twitcogs { position:absolute; width:15px; top:62px; right:5px; }
+.twitcogs li { float:left; margin-right:12px; width:11px; font-family:'roboto'; font-size:12px; font-weight:bold; list-style:none; text-align:center; line-height:8px; #333333; text-shadow: 0 0 0.3em #aaa; }
+.twitcogs i { #333333; }
+ 
+#twitdesc { position:absolute; left:10px; top:140px; width:145px; height:65px;  font-size:8px; line-height:16px; overflow:auto; }
+
+
+
+
+#google { position:absolute; left:15px; bottom:20px; width:215px; height:105px; background:#000; border:1px solid #5a5a5a; border-radius:20px; color:#5a5a5a; padding:10px; text-transform:none;animation-name: floating;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;}
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 10px); }
+    to   { transform: translate(0, -0px); }    
+}
+ 
+.search { position:absolute; margin:0px 5px; width:210px; height:25px; line-height:30px; border-bottom:1px solid #5a5a5a; font-size:9px; }
+ 
+.blinking{ animation:blinkingText 1s infinite; }
+@keyframes blinkingText{ 0%{ color: #000; } 50%{    color: transparent; }  100%{ color: #000; }
+}
+ 
+.mic { position:absolute; right:32px; top:8px; width:10px; height:35px; text-align:center; line-height:35px; font-size:10px; }
+ 
+.mag { position:absolute; right:5px; top:8px; width:30px; height:35px; text-align:center; line-height:35px; font-size:10px; }
+ 
+.recent { position:absolute; left:15px; bottom:0px; width:320px; height:80px; line-height:22px; font-size:10px; }
+
+
+
+#socposts2 { position:absolute; width:330px; height:110px; left:10px; top:310px;  background:#000; border:0.5px solid #5A5A5A; border-radius:20px; }
+#postimg12 { position:absolute; width:75px; height:75px; left:105px; top:325px;  background:#333333; border:1px solid #5A5A5A; border-radius:20px; overflow:hidden;-webkit-transition: opacity 0.8s linear;
+    opacity: .2;   }
+
+#postimg12:hover {
+    -webkit-transition: opacity 0.9s linear;
+    opacity: 2;  
+} 
+
+#postimg22 { position:absolute; width:75px; height:75px; left:20px; top:325px;  background:#333333; border:1px solid #5A5A5A; border-radius:20px; overflow:hidden;-webkit-transition: opacity 0.8s linear;
+    opacity: .2; }
+
+#postimg22:hover {
+    -webkit-transition: opacity 0.9s linear;
+    opacity: 2;  
+} 
+
+#postimg12 img { width:75px; height:75px; }
+
+#postimg22 img { width:75px; height:75px; }
